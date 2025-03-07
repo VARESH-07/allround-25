@@ -1,0 +1,136 @@
+html{
+    scroll-behaviour:smooth;
+}
+
+body{
+    background-color: black;
+    font-family: monospace;
+    color: white;
+    font-size: 24px;
+}
+
+@keyframes fadein{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+h1{
+    text-align: center;
+    color:rgb(157, 255, 0);
+    animation: fadein 3s ease-in-out;
+}
+
+.tech{
+    float: right;
+    width: 200px;
+    height:200px;
+    margin-top: 50px;
+    border-radius: 100px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.in{
+    font-size: 15px;
+    color:rgb(0, 110, 255);
+}
+
+.sports{
+    float: right;
+    width: 200px;
+    height:200px;
+    margin-top: 50px;
+    border-radius: 100px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.fun{
+    float: right;
+    width: 200px;
+    height:200px;
+    margin-top: 50px;
+    border-radius: 100px;
+    margin-right: 25px; 
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.food{
+    float: right;
+    width: 200px;
+    height:200px;
+    margin-top: 50px;
+    border-radius: 100px;
+    margin-right: 25px; 
+    margin-bottom: 50px;
+}
+
+.evee{
+    display:none;
+    color:bisque;
+    z-index:1;
+}
+
+.even{
+    display: none;
+}
+
+.eve:hover .evee{
+    display:block;
+}
+
+.evn:hover .even{
+    display: block;
+    color:cyan;
+    font-size:20px;
+  }
+
+.in:hover{
+    font-size:20px;
+    color:orange;
+}
+
+#info{
+    text-align: center;
+}
+
+a{
+    color: aqua;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    font-size: 30px;
+}
+
+.evee>a{
+    color:bisque;
+}
+
+.evee>a:hover{
+    color:red;
+    font-size:20px;
+}
+.mail{
+    color: magenta;
+}
+
+.mail:hover{
+    color: yellow;
+}
+
+#R{
+    color:green;
+    font-size:46px;
+}
+
+#R:hover{
+    color:rgb(157, 255, 0);
+    font-size:50px;
+}

@@ -1,0 +1,279 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: monospace;
+  background-color: black;
+  color:white;
+  font-size: 24px;
+}
+
+fieldset{
+  margin-bottom:100px;
+}
+
+@keyframes fadein{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+   
+h1{
+    text-align:center;
+    font-size:50px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    color:rgb(157, 255, 0);
+    animation: fadein 3s ease-in-out;
+}
+
+.all{
+    text-align:center;
+}
+
+.even{
+    display: none;
+    font-size:15px;
+    color:red;
+}
+
+.evee{
+  display:none;
+}
+
+.eve:hover .evee{
+    display: block;
+    color:cyan;
+    font-size:20px;
+}
+
+.evn:hover .even{
+  display: block;
+  color:cyan;
+  font-size:20px;
+}
+
+.in:hover{
+  font-size:20px;
+  color:orange;
+}
+
+.in{
+  font-size: 15px;
+  color:rgb(0, 110, 255);
+}
+
+a{
+    font-size: 25px;
+    color:cyan;
+    text-decoration:none;
+}
+
+a:hover{
+    font-size:30px;
+    color:red;
+}
+
+.ins{
+    width:150px;
+    height:100px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:750px;
+}
+
+input[type="checkbox"]{
+  display: block;
+  width:100px;
+}
+
+#technical-events{
+  border: 1px solid white;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.content,.content1{
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech1{
+  border:1px solid white;
+  border-radius:15px;
+  width:75%;
+  margin-right:12.5%;
+  margin-left:12.5%;
+  margin-bottom:10px;
+}
+
+#technical-events:hover{
+    background:linear-gradient(to top,rgb(0, 145, 255),rgb(1, 67, 117),rgb(0, 38, 67),rgb(0, 19, 33),rgb(0, 0, 0));
+    width:100%;
+}
+
+#culturals:hover{
+    background:linear-gradient(to top,rgb(255, 196, 0),rgb(162, 125, 1),rgb(100, 77, 1),rgb(32, 24, 0),rgb(0, 0, 0));
+    width:100%;
+}
+
+#sports:hover{
+    background:linear-gradient(to top,rgb(120, 21, 21),rgb(46, 9, 9),rgb(26, 0, 0),rgb(24, 0, 0),rgb(0, 0, 0));
+    width:100%;
+}
+
+.tech1:hover{
+    background:linear-gradient(to top,rgb(0, 145, 255),rgb(1, 67, 117),rgb(0, 38, 67),rgb(0, 19, 33),rgb(0, 0, 0));
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.cult1:hover{
+    background:linear-gradient(to top,rgb(255, 196, 0),rgb(162, 125, 1),rgb(100, 77, 1),rgb(32, 24, 0),rgb(0, 0, 0));
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.sport1:hover{
+    background:linear-gradient(to top,rgb(120, 21, 21),rgb(46, 9, 9),rgb(26, 0, 0),rgb(24, 0, 0),rgb(0, 0, 0));
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.techy{
+    color:rgb(0, 145, 255);
+    font-family: 'Courier New';
+}
+
+.fun{
+    color:rgb(255, 196, 0);
+    letter-spacing:4px;
+    font-family: impact;
+}
+
+.play{
+    color:rgb(184, 32, 32);
+    font-family:sans-serif;
+}
+
+li{
+  color:white;
+}
+
+#drop-tech:checked~.content{
+  display: block;
+}
+
+#drop-tech:checked~.content1{
+  display: block;
+}
+
+#dropcult:checked~.content{
+  display: block;
+}
+
+#dropspor:checked~.content{
+  display:block;
+}
+
+#dropspor:checked~.content1{
+  display:block;
+}
+
+input[type="checkbox"]{
+  width:100%;
+  height:50px;
+  opacity:0;
+  cursor:pointer;
+}
+
+
+#culturals{
+  border:1px solid white;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top:5px;
+}
+
+.cult1{
+  border:1px solid white;
+  border-radius:15px;
+  width:75%;
+  margin-right:12.5%;
+  margin-left:12.5%;
+  margin-bottom:10px;
+}
+
+#sports{
+   border:1px solid white;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top:5px;
+}
+
+.sport1{
+  border:1px solid white;
+  border-radius:15px;
+  width:75%;
+  margin-right:12.5%;
+  margin-left:12.5%;
+  margin-bottom:10px;
+}
+
+button{
+    width: 50%;
+    height: 50px;
+    border-radius:15px;
+    border:1px solid white;
+    background-color:black;
+    color:white;
+    margin-bottom:15px;
+    margin-top:25px;
+    font-size: 19px;
+}
+
+button:hover{
+    border:1.5px solid rgb(157, 255, 0);
+    color: rgb(157, 255, 0);
+    width:64%;
+    height: 64px;
+}
+
+#top{
+    width:50%;
+    height:50px;
+    border-radius: 15px;
+    border:1px solid white
+    background-color:black;
+    color:white;
+    margin-bottom:15px;
+    font-size: 19px;
+    margin-top: 75px;
+}
+
+@keyframes animated{
+    0%{background-position:0%}
+    100%{background-position:1000%}
+}
+#top:hover{
+    color:white;
+    font-size:35px;
+    font-family: monospace;    
+    width:64%;
+    height:64px;
+    border:3px solid white;
+    border-radius:25px;
+    border-style:inset;
+}

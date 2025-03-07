@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRks0AmHhToi4zFYn-YPUxUPJHRDmOWYa7OVg&s">
+    <title>EVENT REGISTRATION</title>
+</head>
+<body>
+    <h1>EVENT REGISTRATION</h1><hr>
+    <h2>ATHLETICS</h2>
+<form action="viewdata.php" type="get">
+    <fieldset>
+        <legend>STUDENT DETAILS</legend>
+          <label for="name">NAME</label><br>
+            <input type="text" id="name" name="name" required placeholder="NAME"><br><br>
+          <label for="roll">ROLL No</label><br>
+          <input type="number" min="1111111111" max="9999999999" id="roll" name="roll" required placeholder="ROLL NUMBER"><br><br>
+          <label for="email">eMAIL</label><br>
+            <input type="email" id="email" name="email" required placeholder="example@gmail.com"><br><br>
+
+          <label for="funev">SPORTS</label><br>
+          <select class="funevent">
+            <option value=""disabled selected>select</option>
+            <option value="100">100m SPRINT</option>
+            <option value="200">200m SPRINT</option>
+            <option value="shot">SHOTPUT</option>
+            <option value="long">LONG JUMP</option>
+            <option value="relay">100m RELAY</option>
+         </select>
+    </fieldset>
+    <a href="celeb.html"><button type="submit">SUBMIT</button></a>
+</form>
+</body>
+</html>
