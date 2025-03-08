@@ -119,10 +119,12 @@ a:hover{
 }
 .mail{
     color: magenta;
+    size:19px;
 }
 
 .mail:hover{
     color: yellow;
+    font-size:21px;
 }
 
 #R{
